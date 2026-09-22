@@ -13,26 +13,26 @@ export const skillCategories: SkillCategory[] = [
   {
     title: "Frontend Engineering",
     code: "02",
-    items: ["React.js", "Next.js 15", "React Native", "Tailwind CSS", "HTML5/CSS3", "Framer Motion"]
+    items: ["React.js", "Next.js 16", "React Native", "Tailwind CSS", "HTML5/CSS3", "Framer Motion"]
   },
   {
     title: "Backend & Systems",
     code: "03",
-    items: ["Node.js", "Express.js", "FastAPI", "Next.js API Routes", "Socket.io", "RESTful APIs", "JWT Auth"]
+    items: ["Node.js", "Express.js", "Hono", "FastAPI", "Next.js API Routes", "Socket.io", "RESTful APIs", "JWT Auth"]
   },
   {
     title: "Databases & Storage",
     code: "04",
-    items: ["MongoDB Atlas", "PostgreSQL", "MySQL", "Redis", "Firebase", "Supabase"]
+    items: ["MongoDB Atlas", "PostgreSQL", "Cloudflare D1 / R2", "MySQL", "Redis", "Firebase", "Supabase"]
   },
   {
     title: "Cloud & DevOps",
     code: "05",
-    items: ["Docker", "AWS (EC2/S3)", "Vercel", "Linux (Ubuntu / Arch WSL2)", "Git / GitHub Actions"]
+    items: ["Docker", "Cloudflare Workers", "AWS (EC2/S3)", "Vercel", "Linux (Ubuntu / Arch WSL2)", "Git / GitHub Actions"]
   },
   {
-    title: "AI & Accelerated Computing",
+    title: "AI",
     code: "06",
-    items: ["Claude API", "Ollama / Llama 3", "CUDA", "LLM Integration", "Prompt Engineering"]
+    items: ["Claude API", "AWS Rekognition", "Ollama / Llama 3", "CUDA", "LLM Integration", "RAG"]
   }
 ];

@@ -37,12 +37,11 @@ export default function Hero() {
       >
         <div className="flex items-center gap-2">
           <span className="inline-block w-1.5 h-1.5 bg-[#FAFAFA]" />
-          <span>ISLAMABAD / LAHORE, PK</span>
+          <span>LAHORE, PK</span>
         </div>
         <div className="hidden sm:block text-[#525252]">
           BS SOFTWARE ENGINEERING · COMSATS
         </div>
-        <div>2026 PORTFOLIO</div>
       </motion.div>
 
       {/* Main Hero Typography */}
@@ -129,7 +128,7 @@ export default function Hero() {
         </div>
 
         <div className="hidden sm:block text-[11px]">
-          CLIENTS · APPLIED RESEARCH · PROTOTYPES
+          APPLIED RESEARCH · PROTOTYPES
         </div>
       </motion.div>
     </section>

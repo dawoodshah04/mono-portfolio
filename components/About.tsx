@@ -20,11 +20,6 @@ export default function About() {
       value: "in/dawoodbukharii",
       href: "https://linkedin.com/in/dawoodbukharii",
     },
-    {
-      label: "Phone / WA",
-      value: "+92 301 4736695",
-      href: "tel:+923014736695",
-    },
   ];
 
   const highlights = [
@@ -57,24 +52,15 @@ export default function About() {
         {/* Bio Narrative */}
         <div className="lg:col-span-7 space-y-6">
           <p className="text-xl sm:text-2xl text-[#FAFAFA] font-light leading-relaxed">
-            I am a final year Software Engineering student at{" "}
+            I am a final-year Software Engineering student at{" "}
             <span className="text-white font-normal underline decoration-[#333] underline-offset-4">
               COMSATS University Islamabad
             </span>
-            , engineering full-stack platforms, distributed systems, and real-world tools.
+            , specializing in full-stack architecture and distributed systems.
           </p>
 
           <p className="text-sm sm:text-base text-[#8A8A8A] leading-relaxed">
-            My experience spans full product lifecycles — from designing schema architectures and
-            building resilient RESTful APIs to crafting snappy, accessible web and mobile client
-            interfaces. I focus on high-performance backends, clean component abstractions, and
-            pragmatic software engineering.
-          </p>
-
-          <p className="text-sm sm:text-base text-[#8A8A8A] leading-relaxed">
-            Outside of client work, I investigate parallel computation patterns, build developer
-            utilities, and explore applied machine learning integrations with modern LLM APIs and
-            local inference runtimes.
+            I build production-grade web platforms with clean API design, robust database architectures, and intuitive client interfaces. Outside client systems, I engineer developer tooling and explore applied AI workflows.
           </p>
 
           {/* Social / Contact Cards */}

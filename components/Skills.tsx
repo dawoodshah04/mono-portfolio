@@ -51,7 +51,7 @@ export default function Skills() {
       {/* Engineering Focus Summary Note */}
       <div className="mt-12 p-6 rounded-lg bg-[#141414]/50 border border-[#1F1F1F] flex flex-col md:flex-row md:items-center justify-between gap-4 font-mono text-xs text-[#8A8A8A]">
         <div>
-          <span className="text-[#FAFAFA] font-medium">PRIMARY STACK:</span> TypeScript · Next.js 15 · Node.js · MongoDB / PostgreSQL · Python
+          <span className="text-[#FAFAFA] font-medium">PRIMARY STACK:</span> TypeScript · Next.js · Node.js · MongoDB / PostgreSQL · Python
         </div>
         <div className="text-[#525252]">
           LINUX / ARCH / DOCKER WORKFLOWS

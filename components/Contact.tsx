@@ -60,13 +60,6 @@ export default function Contact() {
               <span>Compose Email</span>
               <span>↗</span>
             </a>
-
-            <a
-              href="tel:+923014736695"
-              className="px-4 py-2.5 rounded border border-[#2B2B2B] hover:border-[#404040] text-[#FAFAFA] transition-colors"
-            >
-              +92-301-4736695
-            </a>
           </div>
         </motion.div>
 
@@ -93,7 +86,7 @@ export default function Contact() {
           </a>
 
           <div className="p-5 rounded-lg border border-[#1F1F1F] bg-[#141414] text-[#737373] flex items-center justify-between">
-            <span>Location: Islamabad / Lahore, PK</span>
+            <span>Location: Lahore, PK</span>
             <span className="text-[#383838]">UTC+5</span>
           </div>
         </div>

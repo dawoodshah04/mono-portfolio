@@ -13,24 +13,25 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  {
-    id: "csms",
-    title: "CSMS",
-    subtitle: "Construction Supply Management System",
-    category: "Client Production",
+   {
+    id: "wallepi",
+    title: "Wallepi",
+    subtitle: "Next-Gen Android Wallpaper Platform",
+    category: "Mobile & Edge Systems",
     description:
-      "A client-commissioned, full-stack enterprise platform live in production. Built with a dual-portal architecture separating customer catalog experiences from operational back-office tools.",
+      "High-performance mobile wallpaper application engineered with React Native / Expo and powered by a serverless Cloudflare Workers backend with D1 SQL and R2 storage.",
     highlights: [
-      "Dual-portal architecture: customer catalog, real-time order tracking & invoices",
-      "Administrative dashboard with live inventory tracking and bulk Excel import/export",
-      "15+ RESTful API routes with JWT auth, password hashing, and route-level middleware",
-      "Deployed on Vercel with automated continuous delivery and custom domain"
+      "Edge backend on Cloudflare Workers & Hono with composite D1 indexing for O(limit) range scans",
+      "Dual-tier image delivery with BlurHash placeholders, 400px WebP thumbnails & native Glide caching",
+      "AI ingestion pipeline leveraging AWS Rekognition for automated computer vision tagging",
+      "Direct native Android wallpaper setting integration for Home Screen and Lock Screen"
     ],
-    tech: ["Next.js 15", "TypeScript", "MongoDB Atlas", "Mongoose", "Tailwind CSS", "JWT", "Vercel"],
-    liveUrl: "https://tariqaboudhelabi.com",
-    featured: true,
-    year: "2024"
+    tech: ["React Native", "Expo", "Cloudflare Workers", "Hono", "Cloudflare D1", "Cloudflare R2", "AWS Rekognition"],
+    githubUrl: "https://github.com/dawoodshah04/wallepi-app",
+    featured:false,
+    year: "2026"
   },
+
   {
     id: "swiftchat",
     title: "SwiftChat",
@@ -44,8 +45,26 @@ export const projects: Project[] = [
       "Dynamic mobile-first interface with responsive theme styling"
     ],
     tech: ["Socket.io", "React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS"],
-    githubUrl: "https://github.com/dawoodshah04",
-    year: "2024"
+    githubUrl: "https://github.com/dawoodshah04/SwiftChatepi-app",
+    year: "2026"
+  },
+ {
+    id: "csms",
+    title: "CSMS",
+    subtitle: "Construction Supply Management System",
+    category: "Client Production",
+    description:
+      "A client-commissioned, full-stack enterprise platform live in production. Built with a dual-portal architecture separating customer catalog experiences from operational back-office tools.",
+    highlights: [
+      "Dual-portal architecture: customer catalog, real-time order tracking & invoices",
+      "Administrative dashboard with live inventory tracking and bulk Excel import/export",
+      "15+ RESTful API routes with JWT auth, password hashing, and route-level middleware",
+      "Deployed on Vercel with automated continuous delivery and custom domain"
+    ],
+    tech: ["Next.js", "TypeScript", "MongoDB Atlas", "Mongoose", "Tailwind CSS", "JWT", "Vercel"],
+    liveUrl: "https://tariqaboudhelabi.com",
+  
+    year: "2025"
   },
   {
     id: "adagds",
@@ -60,8 +79,8 @@ export const projects: Project[] = [
       "Centralized configuration, telemetry, and distributed task logging with Supabase"
     ],
     tech: ["Python", "ProcessPoolExecutor", "React Native", "Expo", "Supabase"],
-    githubUrl: "https://github.com/dawoodshah04",
-    year: "2024"
+    githubUrl: "https://github.com/dawoodshah04/tenet-system",
+    year: "2026"
   },
   {
     id: "medremind",
@@ -76,7 +95,7 @@ export const projects: Project[] = [
       "Accessible patient UI designed for intuitive daily prescription adherence"
     ],
     tech: ["React Native", "Firebase", "Dart/Flutter", "Push Notifications"],
-    githubUrl: "https://github.com/dawoodshah04",
+    githubUrl: "https://github.com/dawoodshah04/MedRemind",
     year: "2025"
   },
   {
@@ -92,22 +111,8 @@ export const projects: Project[] = [
       "Comprehensive CRUD endpoints with payload validation and sanitized input"
     ],
     tech: ["MongoDB", "Express.js", "React.js", "Node.js", "REST APIs"],
-    githubUrl: "https://github.com/dawoodshah04",
-    year: "2024"
-  },
-  {
-    id: "pricewisepk",
-    title: "PriceWisePK",
-    subtitle: "E-Commerce Intelligence & Comparison Engine",
-    category: "In Active Development",
-    description:
-      "Data pipeline and price tracking engine indexing catalog inventories and historic price trends across Pakistani e-commerce storefronts.",
-    highlights: [
-      "Automated scraping and normalization pipelines parsing unstructured store data",
-      "Historical price tracking algorithms with threshold drop notification webhooks",
-      "Fast cached query interface powered by Next.js and high-throughput backend services"
-    ],
-    tech: ["Next.js", "FastAPI", "Python", "PostgreSQL", "Redis"],
+    githubUrl: "https://github.com/dawoodshah04/mern-blog",
     year: "2025"
-  }
+  },
+
 ];
